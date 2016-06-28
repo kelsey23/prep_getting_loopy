@@ -26,6 +26,15 @@ console.log("Value is:" + result);
 
 //____________________________________________________// 
 
+function makeEvenNumberArray (){
+  var evenNumberArray='';
+for(var i=2; i < 51 ;i++);{
+	evenNumberArray= evenNumberArray + i;
+}
+return evenNumberArray; 
+  }
+var result = makeEvenNumberArray(); 
+console.log("Value is" + result);
 
 
 
