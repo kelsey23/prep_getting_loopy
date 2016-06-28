@@ -6,3 +6,27 @@ function presidentsArray (presidents){
 	}
 }
 presidentsArr(arr);
+
+
+//____________________________________________________// 
+
+function makeStringOfNumbers (){
+  var stringOfNumbers= '';
+
+ 
+  for(var i=10; i < 21; i++){
+    stringOfNumbers = stringOfNumbers + i;
+  }
+  return stringOfNumbers; 
+}
+
+var result =makeStringOfNumbers();
+console.log("Value is:" + result);
+
+
+//____________________________________________________// 
+
+
+
+
+
