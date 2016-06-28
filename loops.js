@@ -36,6 +36,17 @@ return evenNumberArray;
 var result = makeEvenNumberArray(); 
 console.log("Value is" + result);
 
+//____________________________________________________//
+function makeOopsArray(){
+	var  oopsArray=[ 'turn' , , 'down' , , 'for' , , 'what' ];
+  for (var i =1; i<6; i+=2 ){
+    oopsArray.splice(i,1,"nope"); 
+  }
+  console.log (oopsArray); 
+    return oopsArray; 
+} 
+var oopsArray = makeOopsArray();
+
 
 
 
